@@ -1,0 +1,86 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(to bottom right, #84b3a7 23%, #c6ddd740 99%) fixed;
+}
+
+.joinInnerContainer {
+  background-color: #fff;
+  margin: 100px auto;
+  padding:60px;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+  border-color: transparent;
+}
+
+.heading {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+  font-size: 4.5em;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #45907d54;
+
+  padding: 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  box-shadow: 0px 1px 4px white;
+}
+
+.button:hover{
+  color: #45907d54;
+  background-color: #fff;
+  border-color: #45907d54;
+  border-width: 1px;
+  box-shadow: 0px 1px 4px white;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
